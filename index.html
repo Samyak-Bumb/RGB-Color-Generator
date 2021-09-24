@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Created/Designed By Samyak Bumb -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Slider By Samyak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrap">
+            R<input type="range" min="0" max="255" value="0" oninput="colors()" id="red">
+        </div>
+        <div class="wrap">
+            G<input type="range" min="0" max="255" value="0" oninput="colors()" id="green">
+        </div>
+        <div class="wrap">
+            B<input type="range" min="0" max="255" value="0" oninput="colors()" id="blue">
+        </div>
+        <span id="output">rgb(0,0,0)</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
